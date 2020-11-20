@@ -1,0 +1,136 @@
+@media (min-width: 577px) and (max-width: 768px) {
+  .header {
+    margin-left: 20px;
+    margin-right: 28px;
+  }
+  .header__menu-burger {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(images/menu-btn.svg) no-repeat center;
+  }
+  .header__list-center,
+  .header__list-right {
+    display: none;
+  }
+  .catalog {
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(3, 250px);
+    gap: 20px;
+    max-width: 525px;
+    margin: 0 auto;
+  }
+  .catalog__item-name {
+    top: 20px;
+    left: 40px;
+    font-size: 20px;
+  }
+  .catalog__item-bags {
+    background: url(images/bags-tab.png) no-repeat center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 257px;
+    height: 226px;
+  }
+  .catalog__item-shoes {
+    background: url(images/shoes-tab.png) no-repeat center;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 257px;
+    height: 226px;
+  }
+  .catalog__item-accessories {
+    background: url(images/accessories-tab.png) no-repeat center;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 257px;
+    height: 226px;
+  }
+  .catalog__item-sunglasses {
+    background: url(images/sunglasses-tab.png) no-repeat center;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 257px;
+    height: 226px;
+  }
+  .catalog__item-lingerie {
+    background: url(images/lingerie-tab.png) no-repeat center;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    width: 257px;
+    height: 226px;
+  }
+  .catalog__item-watch {
+    background: url(images/watch-tab.png) no-repeat center;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    width: 257px;
+    height: 226px;
+  }
+}
+@media (max-width: 576px) {
+  .header {
+    margin-left: 20px;
+    margin-right: 28px;
+  }
+  .logo {
+    font-size: 22px;
+    line-height: 26px;
+    flex-basis: 206px;
+  }
+  .header__menu-burger {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(images/menu-btn.svg) no-repeat center;
+  }
+  .header__list-center,
+  .header__list-right {
+    display: none;
+  }
+  .content__info-block {
+    width: 332px;
+    height: 379px;
+    padding: 56px 35px 31px;
+  }
+  .content__title {
+    font-size: 28px;
+  }
+  .content__text {
+    font-size: 16px;
+  }
+  .content__img {
+    object-fit: cover;
+    margin-bottom: 38px;
+  }
+  .catalog {
+    display: block;
+  }
+  .catalog__item {
+    width: 341px;
+    height: 300px;
+    margin: 65px auto;
+  }
+  .catalog__item-bags {
+    margin-top: 0;
+  }
+  .catalog__item-shoes {
+    background: url(images/shoes-mob.png) no-repeat center;
+  }
+  .catalog__item-sunglasses {
+    background: url(images/sunglasses-mob.png) no-repeat center;
+  }
+  .catalog__item-lingerie {
+    background: url(images/lingerie-mob.png) no-repeat center;
+  }
+  .catalog__item-watch {
+    background: url(images/watch-mob.png) no-repeat center;
+  }
+  .footer {
+    margin-top: 65px;
+  }
+  .footer__logo {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}

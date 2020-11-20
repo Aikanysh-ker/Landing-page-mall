@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* header */
+.header {
+  max-width: 1440px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 42px;
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+.header__list-item {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  float: left;
+}
+.header__list-item_link {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 57px;
+}
+.header__bag-icon {
+  position: relative;
+}
+.header__bag-icon::before {
+  content: "";
+  background: url(images/bag-icon.svg) no-repeat center;
+  height: 20px;
+  width: 17px;
+  display: inline-block;
+  position: absolute;
+  right: 45px;
+}
+/* main */
+/* content */
+.content__img {
+  width: 100%;
+  height: 823px;
+  position: relative;
+  margin-bottom: 101px;
+}
+.content__info-block {
+  position: absolute;
+  top: 267px;
+  right: 122px;
+  width: 577px;
+  height: 328px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: -4px 4px 20px rgba(68, 33, 33, 0.25);
+  padding-right: 61px;
+  padding-left: 62px;
+  padding-top: 56px;
+}
+.content__title {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.content__text {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+}
+/* catalog */
+.catalog {
+  display: grid;
+  grid-template-columns: 264px 264px 580px;
+  grid-template-rows: 306px 210px 300px;
+  max-width: 1031px;
+  margin: 0 auto;
+  gap: 28px;
+}
+.catalog__item {
+  position: relative;
+  margin-right: 28px;
+  margin-bottom: 28px;
+}
+.catalog__item-bags {
+  background: url(images/bags.png) no-repeat center;
+  display: block;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  width: 395px;
+  height: 306px;
+}
+.catalog__item-name {
+  position: absolute;
+  top: 26px;
+  left: 42px;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+.catalog__item-shoes {
+  background: url(images/shoes.png) no-repeat;
+  display: block;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  height: 306px;
+}
+.catalog__item-accessories {
+  background: url(images/accessories.png) no-repeat;
+  display: block;
+  grid-row: 2/4;
+  grid-column: 3/5;
+}
+.catalog__item-sunglasses {
+  background: url(images/sunglasses.png) no-repeat;
+  display: block;
+  grid-row: 2/4;
+  grid-column: 1/3;
+}
+.catalog__item-lingerie {
+  background: url(images/lingerie.png) no-repeat;
+  display: block;
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.catalog__item-watch {
+  background: url(images/watch.png) no-repeat;
+  display: block;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: 306px;
+  background: #e7e9ed;
+  margin-top: 101px;
+}
+.footer__logo {
+  text-align: center;
+  margin-bottom: 19px;
+  padding-top: 67px;
+}
+.footer__phone,
+.footer__address {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.footer__copyright {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  color: #919294;
+  text-align: center;
+}
